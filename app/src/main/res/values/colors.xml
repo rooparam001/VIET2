@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#4b4eae</color>
+    <color name="colorPrimaryDark">#404396</color>
+    <color name="colorAccent">#4c4faf</color>
+
+    <color name="Text">#edf5e1</color>
+    <color name="button">#e205386b</color>
+    <color name="sign_up_bg">#1b5ee47e</color>
+    <color name="white">#FFF</color>
+    <color name="edit_text_color">#d3ffffff</color>
+    <color name="black">#000</color>
+    <color name="grey">#c3c3c3</color>
+    <color name="lightblue">#ab414497</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#6dfc80</color>
+
+</resources>

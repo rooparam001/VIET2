@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminTimeTableActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/time_table_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No Time Table Created."
+            android:textSize="@dimen/large_text_size"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/create_time_table_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginVertical="25dp"
+            android:background="@drawable/button_view"
+            android:text="Create Time Table"
+            android:textColor="#fff"
+            android:textSize="@dimen/button_text_size"/>
+
+        <ListView
+            android:id="@+id/created_time_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

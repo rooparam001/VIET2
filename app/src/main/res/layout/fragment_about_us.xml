@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage.AboutFragment">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/suncity_banner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/suncity_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/suncity_banner" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/developer_card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintTop_toBottomOf="@id/suncity_banner">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/developed_by"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/developed_by"/>
+
+            <TextView
+                android:paddingVertical="5dp"
+                android:id="@+id/developer_one"
+                android:textColor="@color/black"
+                android:textSize="@dimen/small_text_size"
+                android:textStyle="bold"
+                android:paddingHorizontal="10dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_code_primary_dark_24dp"
+                app:layout_constraintTop_toBottomOf="@id/developed_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/developer_one"/>
+
+            <TextView
+                android:paddingVertical="5dp"
+                android:id="@+id/developer_two"
+                android:textColor="@color/black"
+                android:textSize="@dimen/small_text_size"
+                android:textStyle="bold"
+                android:paddingHorizontal="10dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_code_primary_dark_24dp"
+                app:layout_constraintTop_toBottomOf="@id/developer_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/developer_two"/>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/assisted_card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintTop_toBottomOf="@id/developer_card">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/assisted_by"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Assisted_by"/>
+
+        <TextView
+            android:paddingVertical="5dp"
+            android:id="@+id/assisted_one"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            android:textStyle="bold"
+            android:paddingHorizontal="10dp"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_code_primary_dark_24dp"
+            app:layout_constraintTop_toBottomOf="@id/assisted_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/assistant_one"/>
+
+        <TextView
+            android:paddingVertical="5dp"
+            android:id="@+id/assisted_two"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            android:textStyle="bold"
+            android:paddingHorizontal="10dp"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_code_primary_dark_24dp"
+            app:layout_constraintTop_toBottomOf="@id/assisted_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/assistant_two"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,123 @@
+<resources>
+
+    <!--App name-->
+    <string name="app_name">VIET</string>
+
+
+    <!--Activity Titles-->
+    <string name="title_activity_viet__home">Viet_Home</string>
+    <string name="action_settings"></string>
+    <string name="title_activity_home_viet">HomeViet</string>
+    <string name="title_activity_vyas_location">Map</string>
+    <string name="title_activity_viet_home">VietHome</string>
+    <string name="title_home">Home</string>
+    <string name="title_notice">Notices</string>
+    <string name="title_profile">Acadmics</string>
+    <string name="title_about">About</string>
+
+
+    <!--Vyas Address-->
+    <string name="vyas_name">Vyas Institute of Engineering and Technology, Jodhpur</string>
+    <string name="vyas_address">Kudi Haud, NH-62 Pali Road, Jodhpur, Rajasthan,
+        342005, Phone: +91 0291-2721011-14</string>
+
+    <!--Suncity Techno-->
+    <string name="suncity_techno">Suncity Techno</string>
+    <string name="developed_by">Developed by :-</string>
+    <string name="developer_one">Umesh (VIET Student)</string>
+    <string name="developer_two">Rooparam (VIET Student) </string>
+    <string name="Assisted_by">Assisted by:-</string>
+    <string name="assistant_one"> Ankit Awasthi (CEO and Founder)</string>
+    <string name="assistant_two"> Anil Dadich (M.D.)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_us">About Developers</string>
+    <string name="title_activity_viet_admin">VietAdminActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!-- News Headings -->
+
+    <string name="news_heading_1">FDP programme TEQIP (18 – 22 June 2018)by RTU, Kota at VIET</string>
+    <string name="news_heading_2">REAP - 2018 Help Center established at 1st A road Sardarpura.</string>
+    <string name="news_heading_3">CAMPUS DRIVE : 5 VIETian placed in SURFACE ENGINEERING. Congratulations !!</string>
+    <string name="news_heading_4">CAMPUS DRIVE: 20 students placed in ICICI , 11 students placed in Teleperformance</string>
+    <string name="news_heading_5">NEWS COVERAGE @ MARCH 2018</string>
+    <string name="news_heading_6">Spark 2018 : Annual cultural/Sports/Technical fest</string>
+    <string name="news_heading_7">CAMPUS DRIVE: 20 students placed in ABHA GENSETS , Hearty Congratulations !!</string>
+    <string name="news_heading_8">Tech Fest "VIETian Ka CSEian"by Dept. of Computer Sc. at Vyas Institute of Engineering &amp; Technology</string>
+    <string name="news_heading_9">Proudly celebrated 12th foundation day of Vyas Institutes of Higher Education on 26 JAN 2018</string>
+    <string name="news_heading_10">Two days national seminar on technical terms &amp; terminology by MHRD , New Delhi</string>
+
+
+    <!--News date-->
+
+    <string name="news_heading_date_1">22/06/2018</string>
+    <string name="news_heading_date_2">02/06/2018</string>
+    <string name="news_heading_date_3">28/05/2018</string>
+    <string name="news_heading_date_4">04/04/2018</string>
+    <string name="news_heading_date_5">02/04/2018</string>
+    <string name="news_heading_date_6">16/03/2018</string>
+    <string name="news_heading_date_7">09/03/2017</string>
+    <string name="news_heading_date_8">16/02/2018</string>
+    <string name="news_heading_date_9">26/01/2018</string>
+    <string name="news_heading_date_10">09/12/2017</string>
+
+    <!--Project Names-->
+
+    <string name="project_title_1">Develop Visual Inspection System for Pipe Welds</string>
+    <string name="project_title_2">Low Cost UV &amp; Visible Flood Lamp</string>
+    <string name="project_title_3">Bluetooth Energy Meter</string>
+    <string name="project_title_4">Smartphone Based Data Logger</string>
+    <string name="project_title_5">Voice Operator Elevator With Speech Recognition</string>
+    <string name="project_title_6">Talking Energy Meter</string>
+    <string name="project_title_7">Wireless Bluetooth Enabled GPS Receiver Data Logger</string>
+    <string name="project_title_8">Automatic Intelligent Plant Watering System</string>
+
+    <!--Project Team-->
+
+    <string name="project_team_1">Haygreev Purohit &amp; Veer Bhadur Singh Khichi Gharao</string>
+    <string name="project_team_2">Aakash Sharma &amp; Akshay Sharma</string>
+    <string name="project_team_3">Nashrah &amp; Krishna Meena</string>
+    <string name="project_team_4">Aayush &amp; Bhawna</string>
+    <string name="project_team_5">Manish Sharma &amp; Faruk Khan Bandukiya</string>
+    <string name="project_team_6">Girish &amp; Rooparam</string>
+    <string name="project_team_7">Raju &amp; Kuldeep</string>
+    <string name="project_team_8">Ramesh &amp; Payal</string>
+
+    <!--Project Dates-->
+    <string name="project_date_1">11/05/2018</string>
+    <string name="project_date_2">24/03/2018</string>
+    <string name="project_date_3">15/01/2018</string>
+    <string name="project_date_4">09/01/2018</string>
+    <string name="project_date_5">11/01/2018</string>
+    <string name="project_date_6">14/01/2018</string>
+    <string name="project_date_7">08/09/2017</string>
+    <string name="project_date_8">17/08/2017</string>
+
+    <!--Examination detail-->
+    <string name="exam_1">CSE 1st Sem Exams</string>
+    <string name="exam_2">CIVIL 3rd Sem Exams</string>
+    <string name="exam_3">ME 7th Sem Exams</string>
+    <string name="exam_4">CSE 3rd Sem Exams</string>
+    <string name="exam_5">EEE 1st Sem Exams</string>
+    <string name="exam_6">CIVIL 2nd Sem Exams</string>
+    <string name="exam_7">CSE 8th Sem Exams</string>
+    <string name="exam_8">EC 4th Sem Exams</string>
+    <string name="exam_9">EE 3rd Sem Exams</string>
+    <string name="exam_10">ME th Sem Exams</string>
+
+    <!--Examination date-->
+
+    <string name="exam_date_1">From 22/06/2018 - To 02/07/2018</string>
+    <string name="exam_date_2">From 02/06/2018 - To 12/06/2018</string>
+    <string name="exam_date_3">From 28/05/2018 - To 08/06/2018</string>
+    <string name="exam_date_4">From 04/04/2018 - To 14/04/2018</string>
+    <string name="exam_date_5">From 02/04/2018 - To 12/04/2018</string>
+    <string name="exam_date_6">From 16/03/2018 - To 26/03/2018</string>
+    <string name="exam_date_7">From 09/03/2017 - To 19/03/2017</string>
+    <string name="exam_date_8">From 16/02/2018 - To 26/02/2018</string>
+    <string name="exam_date_9">From 26/01/2018 - To 06/02/2018</string>
+    <string name="exam_date_10">From 09/12/2017 - To 19/12/2017</string>/
+</resources>
